@@ -1,0 +1,32 @@
+{
+  "name": "rexschool",
+  "version": "1.0.0",
+  "description": "Grades direct from XSchool",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "author": "Lorendos/Leonid",
+  "types": "./@types/index.d.ts",
+  "license": "AGPL-3.0",
+  "private": false,
+  "type": "module",
+  "devDependencies": {
+    "@types/totp-generator": "^0.0.3",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.3",
+    "node-html-parser": "^5.3.3",
+    "totp-generator": "^0.0.13"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist/**/*",
+    "@types/index.d.ts"
+  ]
+}
